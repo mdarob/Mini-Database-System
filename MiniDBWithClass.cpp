@@ -108,9 +108,8 @@ class Person
         	            people[i-1].age = people[i].age;
         	            people[i-1].telephone = people[i].telephone;
         	        }
-        	    }
-                
-                //override the old list and push this new people list
+        	    }                
+            
                 savePoepleToFile();
                 
     		    peopleInDatabase--;
